@@ -1,0 +1,17 @@
+.container {
+  width: 50%;
+  min-width: 460px;
+  margin: 32px auto;
+  border: 2px solid #c0c0c0;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.imgContainer {
+  width: 350px;
+  margin: 0 auto 30px;
+}
+
+.imgContainer > img{
+  width: 100%;
+}

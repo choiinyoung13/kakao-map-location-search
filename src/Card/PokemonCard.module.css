@@ -1,0 +1,29 @@
+.pokemonCard {
+  width: 320px;
+  height: 350px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.pokemonCard:hover {
+  transform: scale(1.1);
+}
+
+.pokemonCard:active {
+  color: black
+}
+
+.cardImage {
+  width: 100%;
+  height: 230px;
+  background-color: rebeccapurple;
+}
+
+.cardFooter {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}

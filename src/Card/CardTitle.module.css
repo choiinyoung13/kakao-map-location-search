@@ -1,0 +1,33 @@
+.cardTitle {
+  width: 100%;
+}
+
+.titleContainer {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #c0c0c0;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  padding: 2px 8px;
+  position: relative;
+}
+
+.number {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgb(68, 68, 68);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  border-left: 1px solid #c0c0c0;
+  padding: 2px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 36px;
+}

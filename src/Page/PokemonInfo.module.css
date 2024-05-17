@@ -1,0 +1,39 @@
+.infoContainer {
+  margin: 30px 0 10px;
+}
+
+.infoContainer:last-of-type {
+  margin: 50px 0 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+  margin: 30px 0 20px 12px;
+}
+
+.infoItem {
+  border-bottom: 1px solid #c0c0c0;
+  padding: 10px 0;
+}
+
+.infoItem:first-of-type{
+  border-top: 1px solid #c0c0c0;
+}
+
+.key {
+  font-weight: 600;
+  font-size: 18px;
+  color: gray;
+  display: inline-block;
+  min-width: 130px;
+  margin-left: 20px;
+}
+
+.value {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(49, 49, 49);
+  margin-left: 20px;
+}

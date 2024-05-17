@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(255 205 5);
+  text-shadow: 2px 2px 0px rgb(38, 62, 194);
+  cursor: pointer;
+}
+
+.hedearOption {
+  border-radius: 6px;
+
+}
+
+.link {
+  text-decoration: none;
+}
